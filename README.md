@@ -1,16 +1,29 @@
-# shop_app_flutter
+# Weather App
 
-A new Flutter project.
+<a href="https://flutter.dev/">📲 Flutter</a>
+</h1>
+<p align="center"> Para de comparas de tênis, feito no curso: A Complete Guide / Tutorial to the Flutter & Dart SDK for building native Android, iOS, Web & Desktop Applications! Professor: Rivaan Ranawat</p>
 
-## Getting Started
+<!-- <h1 align="center">
+  <img alt="WeatherDark" title="#DiarioAutista" src="./lib/assets/weather dark.png" />
+  <img alt="WeatherLigth" title="#DiarioAutista" src="./lib/assets/weather ligth.png" />
+</h1> -->
 
-This project is a starting point for a Flutter application.
+### Pré-requisitos
 
-A few resources to get you started if this is your first Flutter project:
+Não se aplica
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🛠 Tecnologias
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Flutter](https://flutter.dev/)
+
+### 📦 Pacotes
+  - provider: ^6.0.5 <br />
+
+
+## Autor
+  Thallys Freitas  <br/>
+  Entre em contato comigo: ![Gmail Badge](https://img.shields.io/badge/thallys%40hotmail.com-E--mail-green?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thallys@hotmail.com) |
+![Linkedin Badge](https://img.shields.io/badge/Thallys-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thallys-freitas-87155074/)
