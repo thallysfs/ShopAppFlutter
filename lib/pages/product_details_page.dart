@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app_flutter/cart_provider.dart';
+import 'package:shop_app_flutter/providers/cart_provider.dart';
 
 class ProductDetailsPage extends StatefulWidget {
   final Map<String, Object> product;
@@ -23,9 +23,16 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
         'company': widget.product['company'],
         'size': selectedSize,
       });
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Produto adicionado com sucesso!'),
+        ),
+      );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Selecione um tamanho por favor')),
+        SnackBar(
+          content: Text('Selecione um tamanho por favor'),
+        ),
       );
     }
   }
